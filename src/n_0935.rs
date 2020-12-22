@@ -26,7 +26,7 @@ mod tests {
     use super::Solution;
 
     #[test]
-    fn testing() {
+    fn test() {
         assert_eq!(Solution::knight_dialer(500),84202957);
     }
 }
