@@ -48,7 +48,7 @@ mod tests {
     use super::Solution;
 
     #[test]
-    fn testing() {
+    fn test() {
         assert_eq!(
             Solution::min_height_shelves(
                 vec![
