@@ -18,9 +18,9 @@ impl Solution {
             let temp2 = Solution::mat_mul(mat, mat);
             mat = temp2;
             n = n >> 1;
-            println!("{},{:?}",n,mat)
+            //println!("{},{:?}",n,mat)
         }
-        println!("{}",res[0]+res[1]);
+        //println!("{}",res[0]+res[1]);
         res[0]+res[1]
     }
 }
