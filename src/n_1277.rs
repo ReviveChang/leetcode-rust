@@ -6,7 +6,7 @@ impl Solution {
         let mut res = 0;
 
         let mut i = 0;
-        println!("{},{}",matrix.len(),matrix[0].len());
+        //println!("{},{}",matrix.len(),matrix[0].len());
         while i != matrix.len() {
             let mut j = 0;
             while j != matrix[0].len() {
@@ -15,10 +15,10 @@ impl Solution {
                     matrix[i][j] += matrix[i-1][j-1].min(matrix[i][j-1]).min(matrix[i-1][j]);
                 }
                 res += matrix[i][j];
-                println!("{},{},{:?}",i,j,matrix);
+                //println!("{},{},{:?}",i,j,matrix);
                 j+=1;
             }
-            println!("{},{},{:?}",i,j,matrix);
+            //println!("{},{},{:?}",i,j,matrix);
             i+=1;
         }
         res
