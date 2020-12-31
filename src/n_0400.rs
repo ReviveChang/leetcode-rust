@@ -20,7 +20,7 @@ impl Solution {
 
         let num = num + div[prefix];
 
-        let mut word:Vec<char> = num.to_string().chars().collect();
+        let word:Vec<char> = num.to_string().chars().collect();
         
         //println!("{:?}, ind:{}",word,ch_ind);
         word[ch_ind as usize].to_digit(10).unwrap() as i32
