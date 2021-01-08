@@ -30,7 +30,7 @@ mod tests{
     use super::Solution;
 
     #[test]
-    fn testing(){
+    fn test(){
         assert_eq!(Solution::count_squares(vec![vec![0,1,1,1],vec![1,1,1,1],vec![0,1,1,1]]),15);
     }
 }
