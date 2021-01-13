@@ -57,8 +57,12 @@ pub mod c_5649;
 pub mod m_1605;
 pub mod o_0055;
 pub mod n_1200;
-pub mod n_0936;
+pub mod n_1018;
+pub mod m_1615;
+pub mod n_0396;
+pub mod n_1295;
 
 pub mod n_1537;
 pub mod n_1659;
 pub mod n_0464;
+pub mod n_0936;
