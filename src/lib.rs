@@ -31,3 +31,6 @@ pub mod n_0649;
 pub mod n_1277;
 
 pub mod n_1659;
+pub mod n_1734;
+pub mod n_0872;
+pub mod n_1482;
